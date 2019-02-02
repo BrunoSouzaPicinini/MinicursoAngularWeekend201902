@@ -3,4 +3,9 @@ body {
     background-image: url(assets/galaxia.jpeg);
     background-size: cover;
     color: white;
+    font-family: "Arial";
+}
+
+h2 {
+    color: lime;
 }
