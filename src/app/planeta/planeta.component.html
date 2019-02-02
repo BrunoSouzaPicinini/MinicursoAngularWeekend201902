@@ -1,9 +1,10 @@
-<li>
-    <ul>
-	<h2>{{nomePlaneta}}</h2>
-        <img src="{{url}}"
-         alt="{{nomePlaneta}}"
-         style="width: 200px">
-        <p>{{descricao}}</p>
-    </ul>
-</li>
+<h2>{{nomePlaneta}}</h2>
+<img [src]="url"
+   [alt]="nomePlaneta"
+   style="width: 200px">
+<p>
+    <ng-content></ng-content>
+</p>
+
+
+
