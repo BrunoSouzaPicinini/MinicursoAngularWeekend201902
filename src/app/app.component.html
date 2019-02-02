@@ -6,4 +6,10 @@
     url = "https://vignette.wikia.nocookie.net/bibliotecamarista/images/a/a7/Planeta_Terra.png/revision/latest?cb=20091118161309&path-prefix=pt-br">
     Planeta azul com seres humanos e outros animais
 </glx-planeta>
+
+<glx-planeta *ngFor="let planeta of listaDePlanetas"
+    [url]="planeta.imagem"
+    [nomePlaneta]="planeta.titulo">
+    {{planeta.conteudo}}
+</glx-planeta>
     
